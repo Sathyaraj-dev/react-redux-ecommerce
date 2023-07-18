@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body {
+  background: #e9f0f7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 30px;
 }
 
-.App-link {
-  color: #61dafb;
+#simple-select, .MuiMenuItem-root {
+  text-transform: capitalize;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-img {
+  height: 275px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.css-o69gx8-MuiCardMedia-root {
+  width: auto !important;
+  height: 250px;
+  max-width: 100%;
+  margin: 0 auto;
+  transition: transform .3s;
+}
+
+.css-o69gx8-MuiCardMedia-root:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.css-46bh2p-MuiCardContent-root {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-price {
+  font-size: 18px;
+}
+
+.product-price span {
+  font-weight: bold;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
