@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <BrowserRouter>
+      <BrowserRouter basename="/react-ecommerce">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
