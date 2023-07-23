@@ -28,7 +28,7 @@ header {
   display: flex;
 }
 
-.css-o69gx8-MuiCardMedia-root {
+.MuiCardMedia-media {
   width: auto !important;
   height: 250px;
   max-width: 100%;
@@ -36,13 +36,13 @@ header {
   transition: transform .3s;
 }
 
-.css-o69gx8-MuiCardMedia-root:hover {
+.MuiCardMedia-media:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
 }
 
-.css-46bh2p-MuiCardContent-root {
+.MuiCardContent-root {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
