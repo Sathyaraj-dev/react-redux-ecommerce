@@ -3,6 +3,7 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import { Link } from "react-router-dom";
+import Rating from '@mui/material/Rating';
 import { CardActionArea } from '@mui/material';
 
 function ProductsItem({item}) {
@@ -19,7 +20,8 @@ function ProductsItem({item}) {
                 <CardContent>
                     {item.title}
                     <p className='product-price'>Price: <span>${item.price}</span></p>
-                    <p>Ratings: {item.rating.rate}/5</p>
+                    <div style={{display: 'flex'}}>Ratings: <Rating name="read-only" value={item.rating.rate} readOnly /></div>
+                    
                 </CardContent>
             </CardActionArea>
         </Card>

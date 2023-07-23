@@ -23,6 +23,7 @@ export default function Products() {
         .then((res) => {
             setProducts(res.data);
             setLoading(false);
+            console.log(res);
         }).catch((error) => {
             console.log(error);
         });
@@ -32,6 +33,7 @@ export default function Products() {
         getCategories()
         .then((res) => {
             setCategory(res.data);
+            console.log(res);
         }).catch((error) => {
             console.log(error);
         });
