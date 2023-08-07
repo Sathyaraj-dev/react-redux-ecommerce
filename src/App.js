@@ -3,17 +3,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Products from "./components/Products";
 import ProductDetail from "./components/ProductsDetail";
-import Navbar from "./components/Navbar";
+import Cart from "./components/Cart";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <BrowserRouter basename="/react-ecommerce">
+      <BrowserRouter basename="/react-redux-ecommerce">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </>
