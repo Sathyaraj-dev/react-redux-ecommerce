@@ -9,5 +9,16 @@ https://github.com/Sathyaraj-dev/react-redux-ecommerce
 
 https://fakestoreapi.com/
 
+**Screenshot 1**
+
+![s1](https://github.com/Sathyaraj-dev/react-redux-ecommerce/assets/57762726/bc6a2f19-1634-45fa-8427-746be4d84d90)
 
 
+**Screenshot 2**
+
+![s3](https://github.com/Sathyaraj-dev/react-redux-ecommerce/assets/57762726/5c53eb29-31bf-4b57-b285-1d8431ded9c1)
+
+
+**Screenshot 3**
+
+![s2](https://github.com/Sathyaraj-dev/react-redux-ecommerce/assets/57762726/0e33fcce-3986-461c-a464-05d821e78a99)
